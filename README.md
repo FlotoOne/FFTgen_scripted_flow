@@ -24,6 +24,12 @@ If this does not work due to user permissions, you may try:
 pip install --user requests beautifulsoup4
 ```
 
+Also ensure you have the PyYAML library installed:
+
+```bash
+pip3 install pyyaml
+```
+
 ## Installation
 Ensure you have Python 3 installed on your system. You can download Python from [python.org](https://python.org).
 
@@ -48,6 +54,12 @@ Upon execution, the script performs the following operations:
 5. Executes synthesis and place-and-route processes, adjusting the clock period based on the synthesis results.
 
 The user is required to ensure that the directory paths and environment variables are correctly set to match their specific setup.
+
+## Troubleshooting
+If encountering difficulties or unexpected errors while running the script, please verify your working environment.
+- Check if your Python3 is up to date by running `python3 --version` and verifying your Python3 is installed properly.
+- If you have other files in your working directory, try running the script in a fresh and empty directory.
+- If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh.
 
 ## Contributing
 Contributions to this script are welcome. Please ensure that any pull requests or changes maintain compatibility with Hammer CAD tools and adhere to Python 3 standards.
