@@ -1,9 +1,8 @@
 # FFTgen_scripted_flow
 Scripted SKY130 Flow for PPA With Optimized Performance Using SPIRAL FFT Generator
 
-### Authors: Shrihari Iyer and Divya Naidu
-
-### University of Washington
+#### Authors: Shrihari Iyer and Divya Naidu
+#### University of Washington
 
 ## Overview
 This Python script automates the setup and execution of a project to generate Verilog files for Fast Fourier Transform processes, tailored to be used within a SKY130 flow and Hammer CAD environment. The script manages file creation, project directory setup, configuration, and initiates synthesis and place-and-route stages for the designed circuit. This tool simplifies the process of preparing and executing digital design workflows, ensuring all necessary components are correctly configured and executed.
