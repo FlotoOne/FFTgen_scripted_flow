@@ -57,7 +57,7 @@ The user is required to ensure that the directory paths and environment variable
 
 ## Troubleshooting
 If encountering difficulties or unexpected errors while running the script, please verify your working environment.
-- Check if your Python3 is up to date by running `python3 --version` and verifying your Python3 is installed properly.
+- Check if your Python3 is up to date by running ```python3 --version``` and verifying your Python3 is installed properly.
 - If you have other files in your working directory, try running the script in a fresh and empty directory.
 - If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh.
 
