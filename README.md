@@ -2,7 +2,7 @@
 Scripted SKY130 Flow for PPA With Optimized Performance Using SPIRAL FFT Generator
 
 ## Overview
-This Python script automates the setup and execution of a project to generate Verilog files for FFT (Fast Fourier Transform) processes, tailored to be used within a Hammer CAD environment. The script manages file creation, project directory setup, configuration, and initiates synthesis and place-and-route stages for the designed circuit. This tool simplifies the intricate process of preparing and executing digital design workflows, ensuring all necessary components are correctly configured and executed.
+This Python script automates the setup and execution of a project to generate Verilog files for Fast Fourier Transform processes, tailored to be used within a SKY130 flow and Hammer CAD environment. The script manages file creation, project directory setup, configuration, and initiates synthesis and place-and-route stages for the designed circuit. This tool simplifies the process of preparing and executing digital design workflows, ensuring all necessary components are correctly configured and executed.
 
 ## Prerequisites
 To run this script, you need to have the following Python libraries installed:
@@ -47,13 +47,13 @@ Make sure that your working environment does not already contain directories nam
 
 ## Usage
 Upon execution, the script performs the following operations:
-1. Fetches and generates the initial Verilog file content.
+1. Requests the user to input their desired FFT block specifications and generates the resulting Verilog file.
 2. Sets up the necessary project directory structure.
 3. Creates configuration files (`cfg.yml`, `src.yml`, and `tb.yml`).
-4. Prepares a synthesis environment by creating a Makefile and constraint files.
-5. Executes synthesis and place-and-route processes, adjusting the clock period based on the synthesis results.
+4. Creates a Makefile and constraint files to run synthesis and place-and-route processes.
+5. Executes synthesis and place-and-route processes, adjusting the clock period based on the generated timing reports.
+6. Displays relevant PPA information in the terminal while also having all reports readily accessible.
 
-The user is required to ensure that the directory paths and environment variables are correctly set to match their specific setup.
 
 ## Troubleshooting
 If encountering difficulties or unexpected errors while running the script, please verify your working environment.
@@ -62,7 +62,5 @@ If encountering difficulties or unexpected errors while running the script, plea
 python3 --version
 ```
 - If you have other files in your working directory, try running the script in a fresh and empty directory.
-- If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh.
-
-## Contributing
-Contributions to this script are welcome. Please ensure that any pull requests or changes maintain compatibility with Hammer CAD tools and adhere to Python 3 standards.
+- If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh. VSCode seems to run consistently without issue.
+  - Common errors when running on a VM due to improper Python environment may include a Python3 path lookup error as well as being unable to find "hammer-vlsi" inside the "hammer-cad" directory.
