@@ -17,7 +17,7 @@ To run this script, you need to have the following Python libraries installed:
 These libraries are part of the Python Standard Library, except for `requests` and `BeautifulSoup`, which you can install using pip3:
 
 ```bash
-pip3 install requests beautifulsoup4
+pip3 install requests beautifulsoup4```
 
 ## Installation
 Ensure you have Python 3 installed on your system. You can download Python from [python.org](https://python.org).
