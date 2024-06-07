@@ -19,6 +19,11 @@ These libraries are part of the Python Standard Library, except for `requests` a
 ```bash
 pip3 install requests beautifulsoup4
 ```
+If this does not work due to user permissions, you may try:
+```bash
+pip install --user requests beautifulsoup4
+```
+
 ## Installation
 Ensure you have Python 3 installed on your system. You can download Python from [python.org](https://python.org).
 
