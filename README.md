@@ -50,8 +50,8 @@ Upon execution, the script performs the following operations:
 1. Requests the user to input their desired FFT block specifications and generates the resulting Verilog file.
 2. Sets up the necessary project directory structure.
 3. Creates configuration files (`cfg.yml`, `src.yml`, and `tb.yml`).
-4. Creates a Makefile and constraint files to run synthesis and place-and-route processes.
-5. Executes synthesis and place-and-route processes, adjusting the clock period based on the generated timing reports.
+4. Creates a Makefile and constraint files to run Synthesis and Place-and-Route processes.
+5. Executes Synthesis and Place-and-Route processes, adjusting the clock period based on the generated timing reports.
 6. Displays relevant PPA information in the terminal while also having all reports readily accessible.
 
 
@@ -63,4 +63,4 @@ python3 --version
 ```
 - If you have other files in your working directory, try running the script in a fresh and empty directory.
 - If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh. VSCode seems to run consistently without issue.
-  - Common errors when running on a VM due to improper Python environment may include a Python3 path lookup error as well as being unable to find "hammer-vlsi" inside the "hammer-cad" directory.
+  - Common errors when running on a VM due to improper Python environment may include a Python3 path lookup error as well as being unable to find "hammer-vlsi" inside the "hammer-cad" directory while running Synthesis.
