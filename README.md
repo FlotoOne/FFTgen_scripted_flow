@@ -23,3 +23,26 @@ pip3 install requests beautifulsoup4
 Ensure you have Python 3 installed on your system. You can download Python from [python.org](https://python.org).
 
 To run the script, clone this repository or download the script file directly. Navigate to the directory containing the script in your terminal or command prompt, and execute the script by running:
+
+```bash
+./fftgen.py
+```
+or
+```bash
+python3 fftgen.py
+```
+
+Make sure that your working environment does not already contain directories named 'hammer_cad', 'basejump_stl', 'fft_block_design' and make sure there is no preexisting file named 'spiral.v'
+
+## Usage
+Upon execution, the script performs the following operations:
+1. Fetches and generates the initial Verilog file content.
+2. Sets up the necessary project directory structure.
+3. Creates configuration files (`cfg.yml`, `src.yml`, and `tb.yml`).
+4. Prepares a synthesis environment by creating a Makefile and constraint files.
+5. Executes synthesis and place-and-route processes, adjusting the clock period based on the synthesis results.
+
+The user is required to ensure that the directory paths and environment variables are correctly set to match their specific setup.
+
+## Contributing
+Contributions to this script are welcome. Please ensure that any pull requests or changes maintain compatibility with Hammer CAD tools and adhere to Python 3 standards.
