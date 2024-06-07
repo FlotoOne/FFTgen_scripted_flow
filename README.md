@@ -54,6 +54,7 @@ Upon execution, the script performs the following operations:
 5. Executes Synthesis and Place-and-Route processes, adjusting the clock period based on the generated timing reports.
 6. Displays relevant PPA information in the terminal while also having all reports readily accessible.
 
+When the script finishes, the user will have a fully functional working directory to run further processes in.
 
 ## Troubleshooting
 If encountering difficulties or unexpected errors while running the script, please verify your working environment.
