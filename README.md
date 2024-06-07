@@ -21,7 +21,7 @@ pip3 install requests beautifulsoup4
 ```
 If this does not work due to user permissions, you may try:
 ```bash
-pip install --user requests beautifulsoup4
+pip3 install --user requests beautifulsoup4
 ```
 
 Also ensure you have the PyYAML library installed:
