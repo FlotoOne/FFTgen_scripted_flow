@@ -66,6 +66,10 @@ If encountering difficulties or unexpected errors while running the script, plea
 ```bash
 python3 --version
 ```
+- Try downloading `requirements.txt` from the repository and running the following command to ensure all requirements are installed:
+```bash
+pip3 install requirements.txt
+```
 - If you have other files in your working directory, try running the script in a fresh and empty directory.
 - If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh. VSCode seems to run consistently without issue.
   - Common errors when running on a VM due to improper Python environment may include a Python3 path lookup error as well as being unable to find "hammer-vlsi" inside the "hammer-cad" directory while running Synthesis.
