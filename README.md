@@ -69,7 +69,7 @@ python3 --version
 - If you have other files in your working directory, try running the script in a fresh and empty directory.
 - If you are running this script on a Virtual Machine using an application such as TightVNC or TigerVNC, try switching to VSCode and connecting through ssh. VSCode seems to run consistently without issue.
   - Common errors when running on a VM due to improper Python environment may include a Python3 path lookup error as well as being unable to find "hammer-vlsi" inside the "hammer-cad" directory while running Synthesis.
-- If you run into the following error, your area constraints are too high and should be increased within the `create_cfg_file()` function:
+- If you run into the following error, your area constraints are too low and should be increased within the `create_cfg_file()` function:
 ```bash
 **ERROR: (IMPSE-110):   File '.../fft_block_design/fftgen/build/par-rundir/par.tcl' line 160: 1.
 #@ End verbose source .../fft_block_design/fftgen/build/par-rundir/par.tcl
