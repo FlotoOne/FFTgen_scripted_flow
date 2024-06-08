@@ -12,7 +12,6 @@
 #
 # By using this script, users can automatically obtain PPA metrics from Synthesis
 # and Place-and-Route for any FFT Verilog block using the SPIRAL generator.
-# note: ask chatgpt to write this portion better
 
 import sys
 import subprocess
@@ -953,7 +952,7 @@ def main():
     create_tb_file(tb_file_path)
 
     # Initial clock period for constraints
-    initial_clock_period = 8
+    initial_clock_period = 3
 
     # Create constraints.tcl file
     constraints_file_path = os.path.join(cfg_dir, "constraints.tcl")
