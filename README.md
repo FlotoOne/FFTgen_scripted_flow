@@ -71,8 +71,8 @@ python3 --version
   - Common errors when running on a VM due to improper Python environment may include a Python3 path lookup error as well as being unable to find "hammer-vlsi" inside the "hammer-cad" directory while running Synthesis.
 - If you run into the following error, your area constraints are too high and should be increased within the `create_cfg_file()` function:
 ```bash
-**ERROR: (IMPSE-110):   File '/home/flotoone/EE478/fftgen_script/fft_block_design/fftgen/build/par-rundir/par.tcl' line 160: 1.
-#@ End verbose source /home/flotoone/EE478/fftgen_script/fft_block_design/fftgen/build/par-rundir/par.tcl
-**ERROR: (IMPSYT-6692): Invalid return code while executing '/home/flotoone/EE478/fftgen_script/fft_block_design/fftgen/build/par-rundir/par.tcl' was returned and script processing was stopped. Review the following error in '/home/flotoone/EE478/fftgen_script/fft_block_design/fftgen/build/par-rundir/par.tcl' then restart.
-**ERROR: (IMPSYT-6693): Error message: /home/flotoone/EE478/fftgen_script/fft_block_design/fftgen/build/par-rundir/par.tcl: 1.
+**ERROR: (IMPSE-110):   File '.../fft_block_design/fftgen/build/par-rundir/par.tcl' line 160: 1.
+#@ End verbose source .../fft_block_design/fftgen/build/par-rundir/par.tcl
+**ERROR: (IMPSYT-6692): Invalid return code while executing '.../fft_block_design/fftgen/build/par-rundir/par.tcl' was returned and script processing was stopped. Review the following error in '.../fft_block_design/fftgen/build/par-rundir/par.tcl' then restart.
+**ERROR: (IMPSYT-6693): Error message: .../fft_block_design/fftgen/build/par-rundir/par.tcl: 1.
 ```
