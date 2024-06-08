@@ -76,3 +76,22 @@ python3 --version
 **ERROR: (IMPSYT-6692): Invalid return code while executing '.../fft_block_design/fftgen/build/par-rundir/par.tcl' was returned and script processing was stopped. Review the following error in '.../fft_block_design/fftgen/build/par-rundir/par.tcl' then restart.
 **ERROR: (IMPSYT-6693): Error message: .../fft_block_design/fftgen/build/par-rundir/par.tcl: 1.
 ```
+
+## Bibliography
+
+Ahmed Aalaa. 32-point FFT Verilog design based DIT butterfly algorithm. GitHub Repository. https://github.com/AhmedAalaaa/32-point-FFT-Verilog-design-based-DIT-butterfly-algorithm
+
+Larry Tang, Siyuan Chen, Keshav Harisrikanth, Guanglin Xu, Ken Mai, Franz Franchetti. 
+A High Throughput Hardware Accelerator for FFTW Codelets: A First Look. 
+Proceedings of the 2022 High Performance Extreme Computing Conference (HPEC). Carnegie Mellon University, Pittsburgh, PA, 2022.
+
+N. R. Reddy, L. B. Das, A. Rajesh, S. Enjapuri. ASIC implementation of high speed fast Fourier transform based on Split-radix algorithm. 2014 International Conference on Embedded Systems (ICES), Coimbatore, India.  2014, pp. 22-27, doi: 10.1109/EmbeddedSys.2014.6953043. Keywords: Algorithm design and analysis, Equations, Signal processing algorithms, Discrete Fourier transforms, Field programmable gate arrays, Computer architecture, Mathematical model, DFT, FFT, Split-radix, VLSI, ASIC, FPGA. Available: https://ieeexplore.ieee.org/document/6953043.
+
+Peter A. Milder, Franz Franchetti, James C. Hoe, and Markus Püschel
+Computer Generation of Hardware for Linear Digital Signal Processing Transforms
+ACM Transactions on Design Automation of Electronic Systems, Vol. 17, No. 2, 2012.
+
+Peter A. Milder, Franz Franchetti, James C. Hoe, Markus Püschel.
+Computer Generation of Hardware for Linear Digital Signal Processing Transforms.
+ACM Transactions on Design Automation of Electronic Systems. Vol. 17, No. 2, 2012. https://ieeexplore.ieee.org/document/6953043.
+
